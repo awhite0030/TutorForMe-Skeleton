@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "School-level tutor voice",
+  "description": "On a prompt about lessons or tutor copy, keep the stuck point specific and the wording at school level.",
+  "version": "1",
+  "when": {
+    "type": "promptSubmit"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "If this request touches TutorForMe lessons, prompts, or student-facing copy: name the exact stuck point, use 3 or 4 short steps, keep school-level terms, and do not open with the final answer. Biology and chemistry wording must stay precise enough to check. Do not add a second explanation format. Formulas are LaTeX without dollar signs, or null."
+  }
+}

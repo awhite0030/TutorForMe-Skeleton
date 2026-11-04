@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.output/
+.nitro/
+.vercel/
+.tanstack/
+*.log
+.env
+.env.*
+coverage/
+.DS_Store
+.grok/
+artifacts/
+screenshots/
+.project_id
+.node_modules.lock
+
+# Kiroween: .kiro must stay in the repository.
+# Do not add /.kiro or its subfolders here.

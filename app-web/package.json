@@ -1,0 +1,11 @@
+{
+  "name": "@tutorforme/app-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TutorForMe student web app. First Skeleton Crew application. Mounted by the repository host for deploy.",
+  "scripts": {
+    "dev": "npm --prefix ../.. run dev",
+    "build": "npm --prefix ../.. run build"
+  }
+}

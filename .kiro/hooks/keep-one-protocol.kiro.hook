@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Keep a single lesson protocol",
+  "description": "After the shared skeleton changes, check that app-web and app-api still import it instead of forking types.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["packages/tutor-core/**/*.ts"]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "packages/tutor-core changed. Confirm app-web and app-api still import the public lesson API from packages/tutor-core and did not copy Lesson, the prompts, or the JSON gate into either app. Do not gitignore .kiro. If a field was added to the lesson, update both apps in the same change."
+  }
+}

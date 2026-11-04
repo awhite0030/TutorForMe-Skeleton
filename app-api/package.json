@@ -1,0 +1,11 @@
+{
+  "name": "@tutorforme/app-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TutorForMe HTTP API. Second Skeleton Crew app: the same lesson protocol over the network.",
+  "scripts": {
+    "start": "node --experimental-strip-types src/server.ts",
+    "dev": "node --watch --experimental-strip-types src/server.ts"
+  }
+}

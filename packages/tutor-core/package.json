@@ -1,0 +1,10 @@
+{
+  "name": "@tutorforme/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Lean TutorForMe skeleton: lesson protocol, guided walkthroughs, and the model prompt contract. Shared by app-web and app-api.",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}
